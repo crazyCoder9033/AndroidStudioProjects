@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <Button
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_20ssp"
+            android:id="@+id/btn1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="CUSTOM 1"
+            android:backgroundTint="#4BAD4F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/btn2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="CUSTOM 2"
+        android:backgroundTint="#51aeb0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/btn3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="CUSTOM 3"
+        android:backgroundTint="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/btn4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="CUSTOM 4"
+        android:backgroundTint="#6FB4E0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/btn5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="CUSTOM 5"
+        android:backgroundTint="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+

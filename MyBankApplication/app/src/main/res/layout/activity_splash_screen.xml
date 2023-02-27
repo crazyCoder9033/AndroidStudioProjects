@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/whitewall"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+
+    <LinearLayout
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/axis"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/hdfc"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/canara"
+        android:layout_height="100dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/pnb"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/bob"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/uco"
+        android:layout_height="100dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_height="wrap_content"
+        android:text="ALL BANKING SOLUTIONS"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+</LinearLayout>

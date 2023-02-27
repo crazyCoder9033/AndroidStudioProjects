@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bluwhite"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+            />
+        <TextView
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Account"/>
+    </LinearLayout>
+
+<!--    name-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:background="@drawable/roundcorner"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="40dp"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/person"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:text="Name"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    email-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:background="@drawable/roundcorner"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="40dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/email"
+                android:layout_marginHorizontal="10dp"
+
+                android:layout_gravity="center"
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <EditText
+                android:textColor="#000000"
+                android:text="Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    password-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:background="@drawable/roundcorner"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="40dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginHorizontal="10dp"
+
+                android:src="@drawable/password"
+                android:layout_gravity="center"
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <EditText
+                android:textColor="#000000"
+                android:text="Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    checkbox-->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to the terms and conditions"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/fbbutton"
+        android:text="CREATE ACCOUNT"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#008EFF"
+        android:textAllCaps="false"
+        android:background="@drawable/roundcorner"
+        android:text="Already User ? Sign in"
+        />
+    </LinearLayout>
+</LinearLayout>

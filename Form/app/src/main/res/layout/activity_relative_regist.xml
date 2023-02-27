@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/newback"
+    android:layout_height="match_parent"
+    tools:context=".RelativeRegist">
+
+<ImageView
+    android:layout_marginTop="5dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/imgForm"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/forms"
+    />
+    <TextView
+        android:layout_below="@+id/imgForm"
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:textSize="25sp"
+        android:text="REGISTRATION FORM"
+        android:textColor="#734BBC"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:padding="20dp"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:hint="Please Enter your full name"
+
+        />
+
+    <EditText
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:id="@+id/txtEmail"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:hint="Enter Email ID"
+
+        />
+
+    <LinearLayout
+        android:padding="20dp"
+        android:id="@+id/loutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/edtpass"
+            android:imeOptions="actionNext"
+            android:inputType="numberPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter password" />
+
+        <EditText
+            android:id="@+id/edtconfirmpass"
+            android:imeOptions="actionNext"
+            android:inputType="numberPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Confrim Password" />
+    </LinearLayout>
+
+    <EditText
+        android:imeOptions="actionGo"
+        android:inputType="text"
+        android:padding="20dp"
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loutPassword"
+        android:hint="Enter your Address"
+
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtHobbies"
+        android:layout_below="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text="PLEASE SELECT HOBBIES"
+        />
+    <LinearLayout
+        android:id="@+id/loutHobby"
+        android:layout_below="@+id/txtHobbies"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:layout_weight="1"
+        android:id="@+id/chkDancing"
+        android:textColor="#734BBC"
+        android:layout_below="@+id/txtHobbies"
+        android:layout_width="0dp"
+        android:text="Dancing"
+        android:layout_height="wrap_content"
+        />
+
+    <CheckBox
+        android:textColor="#734BBC"
+        android:id="@+id/chkSinging"
+        android:layout_below="@+id/txtHobbies"
+        android:layout_width="0dp"
+        android:text="SINGING"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        />
+
+    <CheckBox
+        android:textColor="#734BBC"
+        android:id="@+id/chkReading"
+        android:layout_below="@+id/txtHobbies"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="READING"
+        android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/loutHobby"
+        android:id="@+id/txtgender"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        />
+    <RadioGroup
+        android:layout_below="@+id/txtgender"
+        android:id="@+id/rdg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdbMale"
+            android:text="MALE"
+            android:textColor="#734BBC"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rdbFemale"
+            android:text="FEMALE"
+            android:textColor="#734BBC"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rdbOther"
+            android:text="OTHER"
+            android:textColor="#734BBC"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btncancel"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSubmit"
+        android:layout_centerHorizontal="true"
+        android:text="Cancel"
+
+        />
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy Right"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/imgArrow"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imgArrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/arrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

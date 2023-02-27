@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:background="#90BF59"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#ffffff"
+            android:padding="@dimen/_5sdp"
+            android:id="@+id/txtSpinnerWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"/>
+    </LinearLayout>
+
+</LinearLayout>

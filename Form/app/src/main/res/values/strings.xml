@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="title">REGISTRATION FORM</string>
+    <string name="text">Please Enter your Full name</string>
+    <string name="email">Please Enter your Email</string>
+    <string name="add">Please Enter your Address</string>
+    <string name="pass">Please Enter your Password</string>
+    <string name="confirm">Please Confirm your Password</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Enter your Username</string>
+    <string name="password">Enter your Password</string>
+
+
+</resources>

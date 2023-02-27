@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/whitewall"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+    <TextView
+        android:background="@drawable/radius"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="LIST OF BANKS"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+<!--BOB-->
+
+        <LinearLayout
+
+            android:paddingVertical="15dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgbob"
+                android:src="@drawable/bob"
+                android:layout_width="0dp"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                />
+
+<!--            <TextView-->
+<!--                android:textSize="10sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_weight="9"-->
+<!--                android:padding="10dp"-->
+<!--                android:textColor="#000000"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="BANK OF BARODA"-->
+<!--                />-->
+
+            <ImageButton
+                android:id="@+id/imbBobCall"
+                android:layout_weight="0.5"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:background="#FFFFFF"
+                android:src="@drawable/phonecall"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imbBobLink"
+                android:layout_weight="0.5"
+                android:background="#FFFFFF"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/share"
+
+                />
+
+
+                <ImageButton
+                    android:id="@+id/imbBobShare"
+                    android:layout_weight="0.5"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:background="#FFFFFF"
+                    android:src="@drawable/link"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--       SBI-->
+    <LinearLayout
+        android:weightSum="10"
+        android:paddingVertical="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgsbi"
+                android:src="@drawable/sbi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_height="40dp"
+                />
+
+<!--            <TextView-->
+<!--                android:textSize="10sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_weight="9"-->
+<!--                android:textColor="#000000"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="STATE BANK OF INDIA"-->
+<!--                />-->
+
+            <ImageButton
+                android:id="@+id/imbSbiCall"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:background="#FFFFFF"
+                android:layout_weight="0.5"
+                android:src="@drawable/phonecall"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imbSbiLink"
+                android:layout_weight="0.5"
+                android:background="#FFFFFF"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/share"
+
+                />
+
+
+            <ImageButton
+                android:id="@+id/imbSbiShare"
+                android:layout_weight="0.5"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:background="#FFFFFF"
+                android:src="@drawable/link"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--       HDFC-->
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imghdfc"
+                   android:src="@drawable/hdfc"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                  android:scaleType="fitXY"
+                   android:layout_height="50dp"
+                   />
+
+<!--               <TextView-->
+
+<!--                   android:textSize="10sp"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:padding="10dp"-->
+<!--                   android:layout_weight="9"-->
+<!--                   android:textColor="#000000"-->
+<!--                   android:layout_width="wrap_content"-->
+<!--                   android:layout_height="match_parent"-->
+<!--                   android:text="HDFC"-->
+<!--                   />-->
+
+               <ImageButton
+                   android:id="@+id/imbHdfcCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.5"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbHdfcLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.5"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbHdfcShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.5"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--       ICICI-->
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imgicici"
+                   android:src="@drawable/icici"
+                   android:layout_width="0dp"
+                   android:scaleType="fitXY"
+                   android:layout_height="50dp"
+                   android:layout_weight="1"
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbIciciCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbIciciLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbIciciShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.5"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--   PNB    -->
+
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imgpnb"
+                   android:src="@drawable/pnb"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:scaleType="fitXY"
+                   android:layout_height="50dp"
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbPnbCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="0.5"
+                   android:scaleType="fitXY"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbPnbLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="0.5"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbPnbShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--       BANK OF INDIA-->
+
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imgboi"
+                   android:src="@drawable/bankofindia"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:scaleType="fitXY"
+                   android:layout_height="50dp"
+                   />
+
+
+
+               <ImageButton
+                   android:id="@+id/imbBoiCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbBoiLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbBoiShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--       canara-->
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imgcanara"
+                   android:src="@drawable/canara"
+                   android:layout_width="0dp"
+                  android:scaleType="fitXY"
+                   android:layout_weight="1"
+                   android:layout_height="50dp"
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbCanaraCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:background="#FFFFFF"
+                   android:layout_weight="0.5"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbCanaraLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbCanaraShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:background="#FFFFFF"
+                   android:layout_weight="0.5"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--       UCO-->
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imguco"
+                   android:src="@drawable/uco"
+                   android:layout_width="0dp"
+                    android:scaleType="fitXY"
+                   android:layout_weight="1"
+                   android:layout_height="50dp"
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbUcoCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="0.5"
+                   android:scaleType="fitXY"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbUcoLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.5"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbUcoShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--       maharstra-->
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imgmaharastraBank"
+                   android:src="@drawable/bankofmaha"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                  android:scaleType="fitXY"
+                   android:layout_height="50dp"
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbMahaCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbMahaLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:layout_weight="0.5"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbMahaShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+
+<!--       Axis-->
+       <LinearLayout
+           android:paddingVertical="15dp"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:id="@+id/imgaxis"
+                   android:src="@drawable/axis"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:scaleType="fitXY"
+                   android:layout_height="50dp"
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbAxisCall"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/phonecall"
+
+                   />
+
+               <ImageButton
+                   android:id="@+id/imbAxisLink"
+                   android:background="#FFFFFF"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:src="@drawable/share"
+
+                   />
+
+
+               <ImageButton
+                   android:id="@+id/imbAxisShare"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_width="0dp"
+                   android:layout_height="50dp"
+                   android:scaleType="fitXY"
+                   android:layout_weight="0.5"
+                   android:background="#FFFFFF"
+                   android:src="@drawable/link"
+
+                   />
+           </LinearLayout>
+
+       </LinearLayout>
+   </LinearLayout>
+</ScrollView>
+</LinearLayout>

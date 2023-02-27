@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="@string/title"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:paddingLeft="30dp"
+        android:background="@drawable/roundcorner"
+        android:padding="10dp"
+        android:text="@string/text"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:imeOptions="actionNext"
+        android:background="@drawable/roundcorner"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"
+        android:text="@string/email"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/roundcorner"
+        android:padding="10dp"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"
+        android:text="@string/add"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:hint="@string/pass"
+        android:imeOptions="actionNext"
+        android:background="@drawable/roundcorner"
+        android:padding="10dp"
+        android:inputType="numberPassword"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcorner"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:hint="@string/confirm"
+        android:imeOptions="actionDone"
+        android:inputType="numberPassword"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="REGISTER"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Cancel"
+        android:textAllCaps="false" />
+</LinearLayout>

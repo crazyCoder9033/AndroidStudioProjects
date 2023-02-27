@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    tools:context=".HomePageActivity">
+
+
+<!--    top-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/sofiasanssss"
+                android:layout_weight="1"
+                android:textColor="#ffff"
+                android:text="Good morning"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20ssp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_weight="0.1"
+                android:src="@drawable/bell"
+                android:layout_width="@dimen/_20ssp"
+                android:layout_height="@dimen/_20sdp"/>
+
+            <ImageView
+                android:layout_weight="0.1"
+                android:src="@drawable/history"
+                android:layout_width="@dimen/_20ssp"
+                android:layout_height="@dimen/_20sdp"/>
+
+            <ImageView
+                android:layout_weight="0.2"
+                android:src="@drawable/setting"
+                android:layout_width="@dimen/_20ssp"
+                android:layout_height="@dimen/_20sdp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/radius"
+                android:textColor="#ffffff"
+                android:text="Music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/radius"
+                android:textColor="#ffffff"
+                android:text="Podcast &amp; Shows "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+<!--    MAin PART-->
+    <LinearLayout
+
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/sofiasanssss"
+            android:textColor="#ffffff"
+            android:text="Discover something new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:background="@drawable/radius3"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:src="@drawable/album1"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:text="RAP 91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_7ssp"
+                        android:inputType="textImeMultiLine"
+                        android:text="Best of Hip-Hop from India."
+                        android:textColor="#808080"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:background="@drawable/radius3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:src="@drawable/album2"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:text="Bambai Bantai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_7ssp"
+                        android:inputType="textImeMultiLine"
+                        android:text="Rapping into your hearts."
+                        android:textColor="#808080"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:background="@drawable/radius3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:src="@drawable/album3"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:text="Dillihood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_7ssp"
+                        android:inputType="textImeMultiLine"
+                        android:text="Rap from the hoods of Dilli."
+                        android:textColor="#808080"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:background="@drawable/radius3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:src="@drawable/album4"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:text="Taaza hai Bro!"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_7ssp"
+                        android:inputType="textImeMultiLine"
+                        android:text="New Hip-Hop from India."
+                        android:textColor="#808080"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:background="@drawable/radius3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:src="@drawable/album5"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:text="Kohinoor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_7ssp"
+                        android:inputType="textImeMultiLine"
+                        android:text=""
+                        android:textColor="#808080"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:background="@drawable/radius3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:src="@drawable/album6"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:text="Hot hits punjabi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_7ssp"
+                        android:inputType="textImeMultiLine"
+                        android:text="Punjabi is love."
+                        android:textColor="#808080"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/sofiasanssss"
+            android:textColor="#ffffff"
+            android:text="Punjabi Rap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a1"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Ghaint Flow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Keep it punjabi."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a2"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Burh Rap"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Fresh punjabi rap"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a3"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Hip te Top"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="This is how we do it."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a4"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Desi Hip-Hop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Best of Hip-Hop from South Asia."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a5"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="KING"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Prabh Deep."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a6"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Da Rap Star"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Bohemia"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/sofiasanssss"
+            android:textColor="#ffffff"
+            android:text="More of what you like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a7"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Don't Look"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Karan Aujla"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a8"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Same Beef"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Bohemia, Siddhu Moosewala"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a9"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Punjabi Bae"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Artists we Love"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a10"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Bollywood Butter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Finest quality of Bollly"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a11"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Desi Hits"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Best of South-Asian"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a12"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Hot Hits Hindi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Hottest hindi music"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/sofiasanssss"
+            android:textColor="#ffffff"
+            android:text="Just The Hits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a13"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Mega Hit Mix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="A mega-mix of 75 artists."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a14"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Happy Hits"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Hits to boost your mood"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a15"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Viral Hits"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Viral,Trending and taking off."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a16"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Mood Booster"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Get happy with today's dose."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a17"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Hit Rewind"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Listen to all tracks"
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginHorizontal="@dimen/_5sdp"
+                        android:background="@drawable/radius3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:src="@drawable/a18"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:text="Chilled Hits"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_7ssp"
+                            android:inputType="textImeMultiLine"
+                            android:text="Kick back to essentials."
+                            android:textColor="#808080"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+    <!--Bottom-->
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:src="@drawable/home"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"/>
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:text="Home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/loutSearch"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:src="@drawable/search"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"/>
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:text="Search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/loutLikedSongs"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:src="@drawable/heart"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"/>
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:text="Liked Songs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/loutYourLibrary"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:src="@drawable/library"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"/>
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:text="Your Library"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
