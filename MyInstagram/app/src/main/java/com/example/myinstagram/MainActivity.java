@@ -25,6 +25,6 @@ ActivityMainBinding binding;
                 startActivity(i);
                 finish();
             }
-        },3000);
+        },1500);
     }
 }
